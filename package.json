@@ -1,9 +1,10 @@
 {
-  "name": "test_server_2",
+  "name": "test_server",
   "version": "1.0.0",
-  "description": "Pruebas de servidor vercel",
-  "main": "index.js",
+  "description": "'Test de respuesta del primer servidor'",
+  "main": "api/server.js",
   "scripts": {
+    "start": "node api/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
